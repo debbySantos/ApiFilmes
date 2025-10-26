@@ -19,7 +19,7 @@ O projeto cumpre os seguintes requisitos:
 
 ## 🏃 Como Executar
 
-A chave da API já está incluída nos arquivos `script-index.js` e `script-detalhes.js`.
+A chave da API já está incluída nos arquivos `index.js` e `index-detalhes.js`.
 
 1.  **Clone ou baixe** este repositório.
-2.  Abra o arquivo `index.html` diretamente no seu navegador.
+2.  Abra o arquivo `pagPrincipal.html` diretamente no seu navegador.
