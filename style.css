@@ -1,0 +1,98 @@
+/* Configurações Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #590212;
+    display: flex;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.elementos-de-busca {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 25px;
+    gap: 15px;
+    width: 980px;
+
+    input {
+        border: none;
+        border-radius: 20px;
+        padding: 15px;
+        width: 60%;
+    }
+
+    .botao-busca  {
+      width: 100px !important;
+    }
+    
+    button {
+        border: none;
+        border-radius: 15px;
+        background-color: #731414;
+        color: #ffffff;
+        padding: 15px;
+        width: 250px;
+    }
+
+}
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+    .filme-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        gap: 20px;
+        color: #000000;
+        border-radius: 10px;
+
+        background-color: #f3f3f3;
+        padding: 25px;
+        width: 300px;
+        image {
+            width: 120px;
+        }
+    }
+}
+
+/* css pag de detalhes */
+
+.botao-voltar {
+        border-radius: 15px;
+        background-color: #731414;
+        color: #ffffff;
+        padding: 15px;
+        width: 250px;
+        margin: 25px;
+   
+}
+
+.detalhes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    gap: 15px;
+   
+
+    img{
+        border-radius: 15px;
+    }
+}
